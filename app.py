@@ -92,9 +92,6 @@ def delete():
 @app.route("/")
 def admin():
 	return redirect(url_for("home"))
-@app.route('/alert')
-def alert():
-	return '<script>alert("this is a alert route"); window.location.href="/";</script>'
 if __name__ =="__main__":
 	with app.app_context():
 		db.create_all()
