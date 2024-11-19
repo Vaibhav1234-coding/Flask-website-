@@ -1,0 +1,34 @@
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 44px;
+}
+
+body{
+	background-color:#f2f2f2;
+}
+
+p {
+  color: red;
+  font-family: courier;
+  font-size: 24px;
+}
+
+.container {
+  width: 80%;
+  transition: all 0.3s ease-in-out;
+  height: 500px;
+  margin: 40px auto;
+  position: relative;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  border-width: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container:hover {
+  background-color: #f2f2f2; /* Change background color on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increase box shadow on hover */
+  transform: translateY(-10px); /* Move container up slightly on hover */
+}

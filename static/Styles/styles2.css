@@ -1,0 +1,25 @@
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size:44px;
+}
+Here is an example of HTML and CSS code to style an image like Wikipedia:
+
+HTML:
+```
+
+.web {
+  text-align: center;
+  margin: 20px;
+  background-color: #F8F8F8;
+  padding: 10px;
+  border: 1px solid #DDD;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.web img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  border: none;
+}
